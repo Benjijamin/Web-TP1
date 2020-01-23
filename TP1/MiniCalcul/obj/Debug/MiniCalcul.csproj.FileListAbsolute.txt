@@ -1,0 +1,7 @@
+C:\Users\1532716\Desktop\tp1\TP1\MiniCalcul\bin\Debug\MiniCalcul.exe.config
+C:\Users\1532716\Desktop\tp1\TP1\MiniCalcul\bin\Debug\MiniCalcul.exe
+C:\Users\1532716\Desktop\tp1\TP1\MiniCalcul\bin\Debug\MiniCalcul.pdb
+C:\Users\1532716\Desktop\tp1\TP1\MiniCalcul\obj\Debug\MiniCalcul.csprojAssemblyReference.cache
+C:\Users\1532716\Desktop\tp1\TP1\MiniCalcul\obj\Debug\MiniCalcul.csproj.CoreCompileInputs.cache
+C:\Users\1532716\Desktop\tp1\TP1\MiniCalcul\obj\Debug\MiniCalcul.exe
+C:\Users\1532716\Desktop\tp1\TP1\MiniCalcul\obj\Debug\MiniCalcul.pdb

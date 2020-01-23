@@ -8,7 +8,6 @@ namespace ConsoleApp1
 {
     class Program
     {
-        private float test;
 
         static void Main(string[] args)
         {

@@ -35,15 +35,28 @@ namespace MiniCalcul
 
         static void Main(string[] args)
         {
-            
-            Console.WriteLine("Premier nombre :");
-            double nb1 =  Convert.ToDouble(Console.ReadLine());
+            string op = "";
+            double nb1 = 0;
+            double nb2 = 0;
 
-            Console.WriteLine("Operateur (+ , - , / , *) :");
-            string op = Console.ReadLine();
+            while (true) {
+                try
+                {
+                    Console.WriteLine("Premier nombre :");
+                    nb1 = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Deuxieme nombre :");
-            double nb2 = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Operateur (+ , - , / , *) :");
+                    op = Console.ReadLine();
+
+                    Console.WriteLine("Deuxieme nombre :");
+                    nb2 = Convert.ToDouble(Console.ReadLine());
+
+                    break;
+                }
+                catch (FormatException fe) {
+                    Console.WriteLine("Ce n'est pas un nombre");
+                }
+            }
 
             Program miniCalcul = new Program();
             double res = miniCalcul.Calcul(op,nb1,nb2);

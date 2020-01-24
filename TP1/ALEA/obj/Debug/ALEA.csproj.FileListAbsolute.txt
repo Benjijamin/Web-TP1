@@ -1,0 +1,7 @@
+C:\Users\1532716\Desktop\Web-TP1\TP1\ALEA\bin\Debug\ALEA.exe.config
+C:\Users\1532716\Desktop\Web-TP1\TP1\ALEA\bin\Debug\ALEA.exe
+C:\Users\1532716\Desktop\Web-TP1\TP1\ALEA\bin\Debug\ALEA.pdb
+C:\Users\1532716\Desktop\Web-TP1\TP1\ALEA\obj\Debug\ALEA.csprojAssemblyReference.cache
+C:\Users\1532716\Desktop\Web-TP1\TP1\ALEA\obj\Debug\ALEA.csproj.CoreCompileInputs.cache
+C:\Users\1532716\Desktop\Web-TP1\TP1\ALEA\obj\Debug\ALEA.exe
+C:\Users\1532716\Desktop\Web-TP1\TP1\ALEA\obj\Debug\ALEA.pdb

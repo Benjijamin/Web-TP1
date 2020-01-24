@@ -5,3 +5,10 @@ E:\C#\Web-TP1\TP1\Number 1\bin\Debug\Number 1.exe
 E:\C#\Web-TP1\TP1\Number 1\bin\Debug\Number 1.pdb
 E:\C#\Web-TP1\TP1\Number 1\obj\Debug\Number 1.exe
 E:\C#\Web-TP1\TP1\Number 1\obj\Debug\Number 1.pdb
+G:\C#\Web-TP1\TP1\Number 1\bin\Debug\Number 1.exe.config
+G:\C#\Web-TP1\TP1\Number 1\bin\Debug\Number 1.exe
+G:\C#\Web-TP1\TP1\Number 1\bin\Debug\Number 1.pdb
+G:\C#\Web-TP1\TP1\Number 1\obj\Debug\Number 1.csprojAssemblyReference.cache
+G:\C#\Web-TP1\TP1\Number 1\obj\Debug\Number 1.csproj.CoreCompileInputs.cache
+G:\C#\Web-TP1\TP1\Number 1\obj\Debug\Number 1.exe
+G:\C#\Web-TP1\TP1\Number 1\obj\Debug\Number 1.pdb

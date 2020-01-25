@@ -13,7 +13,7 @@ namespace Serialiser
             LAIT, CAFE, OEUF, VIANDE, FROMAGE, PAIN, BAGEL, FRUIT
         }
 
-        static Array GenListe()
+        static Produit[] GenListe()
         {
             Produit[] liste = new Produit[5];
 
@@ -34,19 +34,26 @@ namespace Serialiser
                 listeconv[i] = Enum.GetName(typeof(Produit), liste[i]);
             }
 
-            System.IO.File.WriteAllLines(@"C:\", listeconv);
+            try
+            {
+                System.IO.File.WriteAllLines(AppDomain.CurrentDomain.BaseDirectory + @"\test.txt", listeconv);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Echec d'ecriture au fichier");
+            }
         }
 
         static void Main(string[] args)
         {
-            Array liste = GenListe();
+            Produit[] liste = GenListe();
 
             foreach (Produit p in liste)
             {
                 Console.WriteLine(p);
             }
 
-
+            ListeVersTexte(liste);
 
         }
     }

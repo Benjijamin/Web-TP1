@@ -1,0 +1,7 @@
+F:\TP1Web\TP1\Numero6\bin\Debug\Numero6.exe.config
+F:\TP1Web\TP1\Numero6\bin\Debug\Numero6.exe
+F:\TP1Web\TP1\Numero6\bin\Debug\Numero6.pdb
+F:\TP1Web\TP1\Numero6\obj\Debug\Numero6.csprojAssemblyReference.cache
+F:\TP1Web\TP1\Numero6\obj\Debug\Numero6.csproj.CoreCompileInputs.cache
+F:\TP1Web\TP1\Numero6\obj\Debug\Numero6.exe
+F:\TP1Web\TP1\Numero6\obj\Debug\Numero6.pdb

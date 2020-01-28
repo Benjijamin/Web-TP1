@@ -1,0 +1,7 @@
+G:\TP1Web\TP1\ProduitNumero9\obj\Debug\ProduitNumero9.csprojAssemblyReference.cache
+G:\TP1Web\TP1\ProduitNumero9\obj\Debug\ProduitNumero9.csproj.CoreCompileInputs.cache
+G:\TP1Web\TP1\ProduitNumero9\bin\Debug\ProduitNumero9.exe.config
+G:\TP1Web\TP1\ProduitNumero9\bin\Debug\ProduitNumero9.exe
+G:\TP1Web\TP1\ProduitNumero9\bin\Debug\ProduitNumero9.pdb
+G:\TP1Web\TP1\ProduitNumero9\obj\Debug\ProduitNumero9.exe
+G:\TP1Web\TP1\ProduitNumero9\obj\Debug\ProduitNumero9.pdb

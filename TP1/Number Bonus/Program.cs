@@ -44,9 +44,10 @@ namespace Number_Bonus
 
         private void AfficherTemperatures(string mois)
         {
-            foreach (KeyValuePair<int, (string, double)> value in temperatures)
+            Console.WriteLine("Temperatures en {0}: ", mois);
+            foreach (KeyValuePair<int, (string, double)> value in temperatures.Where(temp => temp.Value.Item1 == mois))
             {
-               if(value.Value.Item1 == mois) Console.WriteLine(value.Value.Item2);
+                Console.WriteLine(value.Value.Item2);
             }
             Console.WriteLine("");
         }
@@ -54,45 +55,93 @@ namespace Number_Bonus
         private void AfficherTemperatureMax(string mois)
         {
             double max = 0;
-            foreach (KeyValuePair<int, (string, double)> value in temperatures)
+            foreach (KeyValuePair<int, (string, double)> value in temperatures.Where(temp => temp.Value.Item1 == mois))
             {
-                if (value.Value.Item1 == mois) if (value.Value.Item2 > max) max = value.Value.Item2;
+                if (value.Value.Item2 > max) max = value.Value.Item2;
             }
-            Console.WriteLine("temperature maximale: " + max);
+            Console.WriteLine("Temperature maximale en {0}: {1}", mois, max);
             Console.WriteLine("");
         }
         private void AfficherTemperatureMin(string mois)
         {
             double min = 1000000;
-            foreach (KeyValuePair<int, (string, double)> value in temperatures)
+            foreach (KeyValuePair<int, (string, double)> value in temperatures.Where(temp => temp.Value.Item1 == mois))
             {
-                if (value.Value.Item1 == mois) if (value.Value.Item2 < min) min = value.Value.Item2;
+                if (value.Value.Item2 < min) min = value.Value.Item2;
             }
-            Console.WriteLine("temperature minimale: " + min);
+            Console.WriteLine("Temperature minimale en {0}: {1}", mois, min);
             Console.WriteLine("");
         }
 
         private void AfficherTemperatureMoyenne(string mois)
         {
             double moyenne = 0;
+            int i = 0;
+            foreach (KeyValuePair<int, (string, double)> value in temperatures.Where(temp => temp.Value.Item1 == mois))
+            {
+                moyenne += value.Value.Item2;
+                i++;
+            }
+            moyenne /= i;
+            Console.WriteLine("Moyenne des temperatures en {0}: {1}", mois, moyenne);
+            Console.WriteLine("");
+        }
+
+        private void AfficherTousLesMois()
+        {
             foreach (KeyValuePair<int, (string, double)> value in temperatures)
             {
-                if (value.Value.Item1 == mois) moyenne += value.Value.Item2;
+                Console.WriteLine(value.Value.Item2);
             }
-            moyenne /= temperatures.GroupBy();
+            Console.WriteLine("");
+
+            double max = 0;
+            foreach (KeyValuePair<int, (string, double)> value in temperatures)
+            {
+                if (value.Value.Item2 > max) max = value.Value.Item2;
+            }
+            Console.WriteLine("Temperature maximale: " + max);
+            Console.WriteLine("");
+
+            double min = 1000000;
+            foreach (KeyValuePair<int, (string, double)> value in temperatures)
+            {
+                if (value.Value.Item2 < min) min = value.Value.Item2;
+            }
+            Console.WriteLine("Temperature minimale: " + min);
+            Console.WriteLine("");
+
+            double moyenne = 0;
+            int i = 0;
+            foreach (KeyValuePair<int, (string, double)> value in temperatures)
+            {
+                moyenne += value.Value.Item2;
+                i++;
+            }
+            moyenne /= i;
             Console.WriteLine("Moyenne des temperatures: " + moyenne);
             Console.WriteLine("");
         }
 
+        private void AfficherMois(string mois)
+        {
+            AfficherTemperatures(mois);
+            AfficherTemperatureMax(mois);
+            AfficherTemperatureMin(mois);
+            AfficherTemperatureMoyenne(mois);
+
+        }
 
         static void Main(string[] args)
         {
             Program p = new Program();
+            p.AfficherTousLesMois();
 
 
-            //   foreach (KeyValuePair<int, (string, double)> value in p.temperatures) {
-            //       Console.WriteLine(value.Key+", "+value.Value.Item1+", "+value.Value.Item2);
-            //   }
+
+            p.AfficherMois("juin");
+            p.AfficherMois("juillet");
+            p.AfficherMois("aout");
 
         }
     }

@@ -49,6 +49,7 @@ namespace Number_Bonus
             {
                 Console.WriteLine(value.Value.Item2);
             }
+
             Console.WriteLine("");
         }
 
@@ -125,11 +126,10 @@ namespace Number_Bonus
 
         private void AfficherMois(string mois)
         {
-            AfficherTemperatures(mois);
-            AfficherTemperatureMax(mois);
-            AfficherTemperatureMin(mois);
-            AfficherTemperatureMoyenne(mois);
-
+                AfficherTemperatures(mois);
+                AfficherTemperatureMax(mois);
+                AfficherTemperatureMin(mois);
+                AfficherTemperatureMoyenne(mois);
         }
 
         static void Main(string[] args)

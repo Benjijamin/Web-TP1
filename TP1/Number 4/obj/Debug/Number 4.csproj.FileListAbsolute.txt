@@ -5,3 +5,10 @@ G:\C#\Web-TP1\TP1\Number 4\obj\Debug\Number 4.csprojAssemblyReference.cache
 G:\C#\Web-TP1\TP1\Number 4\obj\Debug\Number 4.csproj.CoreCompileInputs.cache
 G:\C#\Web-TP1\TP1\Number 4\obj\Debug\Number 4.exe
 G:\C#\Web-TP1\TP1\Number 4\obj\Debug\Number 4.pdb
+U:\TPWEB\TP1\Number 4\bin\Debug\Number 4.exe.config
+U:\TPWEB\TP1\Number 4\bin\Debug\Number 4.exe
+U:\TPWEB\TP1\Number 4\bin\Debug\Number 4.pdb
+U:\TPWEB\TP1\Number 4\obj\Debug\Number 4.csprojAssemblyReference.cache
+U:\TPWEB\TP1\Number 4\obj\Debug\Number 4.csproj.CoreCompileInputs.cache
+U:\TPWEB\TP1\Number 4\obj\Debug\Number 4.exe
+U:\TPWEB\TP1\Number 4\obj\Debug\Number 4.pdb

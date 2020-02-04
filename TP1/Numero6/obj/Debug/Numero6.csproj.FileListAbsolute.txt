@@ -5,3 +5,10 @@ F:\TP1Web\TP1\Numero6\obj\Debug\Numero6.csprojAssemblyReference.cache
 F:\TP1Web\TP1\Numero6\obj\Debug\Numero6.csproj.CoreCompileInputs.cache
 F:\TP1Web\TP1\Numero6\obj\Debug\Numero6.exe
 F:\TP1Web\TP1\Numero6\obj\Debug\Numero6.pdb
+U:\TPWEB\TP1\Numero6\bin\Debug\Numero6.exe.config
+U:\TPWEB\TP1\Numero6\bin\Debug\Numero6.exe
+U:\TPWEB\TP1\Numero6\bin\Debug\Numero6.pdb
+U:\TPWEB\TP1\Numero6\obj\Debug\Numero6.csprojAssemblyReference.cache
+U:\TPWEB\TP1\Numero6\obj\Debug\Numero6.csproj.CoreCompileInputs.cache
+U:\TPWEB\TP1\Numero6\obj\Debug\Numero6.exe
+U:\TPWEB\TP1\Numero6\obj\Debug\Numero6.pdb

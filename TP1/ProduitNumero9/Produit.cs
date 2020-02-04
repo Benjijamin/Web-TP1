@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace ProduitNumero9
 {
-    class Produit
+    public class Produit
     {
 
         private int noProduit;
         private string nomProduit;
         private string description;
-        private double prix;
+        private double value;
         private int quantite;
         private int qteRupture;
         private bool taxable;
@@ -28,17 +29,18 @@ namespace ProduitNumero9
         public string Description { get => description; set => description = value; }
         public double Prix
         {
-            get { return prix; }
+            get { return value; }
 
             set
             {
                 if (value <= 500 && value >= 0)
                 {
-                    prix = value;
+                    this.value = value;
+                    
                 }
                 else
                 {
-                    Console.WriteLine("mauvaise valeur");
+                    throw new ProduitException("prix (" + value + ") invalide");
                 }
             }
         }
@@ -54,7 +56,7 @@ namespace ProduitNumero9
                 }
                 else
                 {
-                    Console.WriteLine("mauvaise valeur");
+                    throw new ProduitException("quantite (" + value + ") invalide");
                 }
             }
         }
@@ -64,13 +66,13 @@ namespace ProduitNumero9
 
             set
             {
-                if ((value / 100) <= 0.2 && value / 100 >= 0)
+                if ((value / 100) <= 0.2 && (value/100) >= 0)
                 {
                     qteRupture = value;
                 }
                 else
                 {
-                    Console.WriteLine("mauvaise valeur");
+                    throw new ProduitException("QteRupture (" + value + ") invalide");
                 }
             }
         }
@@ -79,14 +81,47 @@ namespace ProduitNumero9
 
         public override String ToString()
         {
-            return String.Format("Produit : {0} {1} {2} ", nomProduit, noProduit, qteRupture);
+            
+            return string.Format("Produit : {0} {1} {2} {3}", nomProduit, noProduit, qteRupture, Prix);
 
         }
 
         public double Total(Produit p)
         {
-            return p.prix* p.quantite;
+            return p.value* p.quantite;
         }
+
+
+
+
+                //Operateurs
+
+        public static bool operator == (Produit I, Produit J)
+        {
+           
+                return I.noProduit == J.noProduit;
+            
+        }
+
+      
+        public static bool operator !=(Produit I, Produit J)
+        {
+            return I.noProduit != J.noProduit;
+        }
+
+
+        public static bool operator >(Produit I, Produit J)
+        {
+            return I.quantite - I.qteRupture > J.quantite - J.qteRupture;
+        }
+
+        public static bool operator <(Produit I, Produit J)
+        {
+            return I.quantite -I.qteRupture < J.quantite-J.qteRupture;
+          
+
+        }
+
 
 
 

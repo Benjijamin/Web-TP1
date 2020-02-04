@@ -19,3 +19,10 @@ G:\TP1Web\TP1\Numero3\obj\Debug\Numero3.csprojAssemblyReference.cache
 G:\TP1Web\TP1\Numero3\obj\Debug\Numero3.csproj.CoreCompileInputs.cache
 G:\TP1Web\TP1\Numero3\obj\Debug\Numero3.exe
 G:\TP1Web\TP1\Numero3\obj\Debug\Numero3.pdb
+U:\TPWEB\TP1\Numero3\bin\Debug\Numero3.exe.config
+U:\TPWEB\TP1\Numero3\bin\Debug\Numero3.exe
+U:\TPWEB\TP1\Numero3\bin\Debug\Numero3.pdb
+U:\TPWEB\TP1\Numero3\obj\Debug\Numero3.csprojAssemblyReference.cache
+U:\TPWEB\TP1\Numero3\obj\Debug\Numero3.csproj.CoreCompileInputs.cache
+U:\TPWEB\TP1\Numero3\obj\Debug\Numero3.exe
+U:\TPWEB\TP1\Numero3\obj\Debug\Numero3.pdb

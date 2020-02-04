@@ -12,3 +12,10 @@ G:\C#\Web-TP1\TP1\Number 1\obj\Debug\Number 1.csprojAssemblyReference.cache
 G:\C#\Web-TP1\TP1\Number 1\obj\Debug\Number 1.csproj.CoreCompileInputs.cache
 G:\C#\Web-TP1\TP1\Number 1\obj\Debug\Number 1.exe
 G:\C#\Web-TP1\TP1\Number 1\obj\Debug\Number 1.pdb
+U:\TPWEB\TP1\Number 1\bin\Debug\Number 1.exe.config
+U:\TPWEB\TP1\Number 1\bin\Debug\Number 1.exe
+U:\TPWEB\TP1\Number 1\bin\Debug\Number 1.pdb
+U:\TPWEB\TP1\Number 1\obj\Debug\Number 1.csprojAssemblyReference.cache
+U:\TPWEB\TP1\Number 1\obj\Debug\Number 1.csproj.CoreCompileInputs.cache
+U:\TPWEB\TP1\Number 1\obj\Debug\Number 1.exe
+U:\TPWEB\TP1\Number 1\obj\Debug\Number 1.pdb

@@ -5,3 +5,10 @@ C:\Users\1532716\Desktop\Web-TP1\TP1\Number Bonus\obj\Debug\Number Bonus.csprojA
 C:\Users\1532716\Desktop\Web-TP1\TP1\Number Bonus\obj\Debug\Number Bonus.csproj.CoreCompileInputs.cache
 C:\Users\1532716\Desktop\Web-TP1\TP1\Number Bonus\obj\Debug\Number Bonus.exe
 C:\Users\1532716\Desktop\Web-TP1\TP1\Number Bonus\obj\Debug\Number Bonus.pdb
+U:\TPWEB\TP1\Number Bonus\bin\Debug\Number Bonus.exe.config
+U:\TPWEB\TP1\Number Bonus\bin\Debug\Number Bonus.exe
+U:\TPWEB\TP1\Number Bonus\bin\Debug\Number Bonus.pdb
+U:\TPWEB\TP1\Number Bonus\obj\Debug\Number Bonus.csprojAssemblyReference.cache
+U:\TPWEB\TP1\Number Bonus\obj\Debug\Number Bonus.csproj.CoreCompileInputs.cache
+U:\TPWEB\TP1\Number Bonus\obj\Debug\Number Bonus.exe
+U:\TPWEB\TP1\Number Bonus\obj\Debug\Number Bonus.pdb

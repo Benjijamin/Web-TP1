@@ -1,0 +1,7 @@
+U:\TPWEB\TP1\MiniCalcul\bin\Debug\MiniCalcul.exe.config
+U:\TPWEB\TP1\MiniCalcul\bin\Debug\MiniCalcul.exe
+U:\TPWEB\TP1\MiniCalcul\bin\Debug\MiniCalcul.pdb
+U:\TPWEB\TP1\MiniCalcul\obj\Debug\Number 2.csprojAssemblyReference.cache
+U:\TPWEB\TP1\MiniCalcul\obj\Debug\Number 2.csproj.CoreCompileInputs.cache
+U:\TPWEB\TP1\MiniCalcul\obj\Debug\MiniCalcul.exe
+U:\TPWEB\TP1\MiniCalcul\obj\Debug\MiniCalcul.pdb

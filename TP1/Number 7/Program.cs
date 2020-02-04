@@ -43,34 +43,93 @@ namespace Number_7
         }
 
         private List<Couleur> listC = new List<Couleur>();
+        
 
-        public void ajouterCouleur(Couleur coul)
+        internal List<Couleur> ListC { get => listC; set => listC = value; }
+
+        public void AjouterCouleur(Couleur coul)
         {
-            if (!listC.Contains(coul))
-                listC.Add(coul);
+            if (!ListC.Contains(coul))
+                ListC.Add(coul);
         }
 
 
-        public void showCouleur()
+        public void Listcouleur() {
+
+            Couleur blanc = new Couleur("Blanc", 255, 255, 255);
+            Couleur rouge = new Couleur("Rouge", 255, 0, 0);
+            Couleur lime = new Couleur("Lime", 0, 255, 0);
+            Couleur bleu = new Couleur("Bleu", 0, 0, 255);
+            Couleur noir = new Couleur("Noir", 0, 0, 0);
+            AjouterCouleur(blanc);
+            AjouterCouleur(rouge);
+            AjouterCouleur(lime);
+            AjouterCouleur(bleu);
+            AjouterCouleur(noir);
+
+
+        }
+
+
+        public void SupprimerCouleur(Couleur coul) {
+            ListC.Remove(coul);
+        }
+
+
+        public void ShowCouleur()
         {
-            for (int i = 0; i < listC.Count; i++)
+            for (int i = 0; i < ListC.Count; i++)
             {
-                Console.WriteLine("Couleur est : " + listC[i]);
+                Console.WriteLine("Couleur est : " + ListC[i]);
             }
         }
 
-        public void trouverCouleur(String coul) {
-            for(int i = 0;i < listC.Count; i++)
+        public Couleur TrouverCouleur(String coul)
+        {
+            Couleur couleur = new Couleur("", -1, -1, -1);
+            bool trouve = false;
+            foreach (Couleur c in ListC)
             {
+
+                if (c.NCouleur == coul)
+                {
+                    couleur = c;
+                    trouve = true;
+                }
+
 
             }
             
+            return couleur;
         }
 
 
-        public (int, int, int) trouverRGB(Couleur coul)
+        public void trouverRGB(Couleur coul)
         {
-            return (coul.P1, coul.P2, coul.P3);
+
+
+            if (coul.P1 != -1 || coul.P2 != -1 || coul.P3 != -1)
+            {
+
+                Console.WriteLine("La couleur est : " + coul.NCouleur + " " + coul.P1 +", "+ coul.P2 +", "+ coul.P3);
+
+            }
+            else
+            {
+                Console.WriteLine("Code inexistant");
+            }
+
+
+           
+        }
+
+        public void ModifierCouleur(Couleur coul,string nom,int r, int g, int b) {
+            Couleur mauve = new Couleur(coul.NCouleur = nom, coul.P1 = r, coul.P2 = g, coul.P3 = b);
+            listC.Add(mauve);
+            listC.Remove(TrouverCouleur("Blanc"));
+          
+
+
         }
 
 
@@ -78,33 +137,26 @@ namespace Number_7
         static void Main(string[] args)
         {
             Program prog = new Program();
-            Couleur val;
-            Couleur a;
-            Couleur blanc = new Couleur("Blanc", 255, 255, 255);
-            Couleur rouge = new Couleur("Rouge", 255, 0, 0);
-            Couleur lime = new Couleur("Lime", 0, 255, 0);
-            Couleur bleu = new Couleur("Bleu", 0, 0, 255);
-            Couleur noir = new Couleur("Noir", 0, 0, 0);
+            prog.Listcouleur();
+            prog.ShowCouleur();
 
-            prog.ajouterCouleur(blanc);
-            prog.ajouterCouleur(rouge);
-            prog.ajouterCouleur(lime);
-            prog.ajouterCouleur(bleu);
-            prog.ajouterCouleur(noir);
-
-            prog.showCouleur();
-
-            Console.Write("Entrez couleur : ");
-            val = Console.ReadLine();
-          
+            prog.trouverRGB(prog.TrouverCouleur("bleu"));
 
 
-            prog.trouverCouleur(bleu);
+            prog.ListC.Remove(prog.TrouverCouleur("Blanc"));
 
+            prog.ShowCouleur();
 
+            Console.WriteLine();
 
+            prog.Listcouleur();
+            prog.ShowCouleur();
 
+            Console.WriteLine();
 
+            prog.ModifierCouleur(prog.TrouverCouleur("Blanc"),"Mauve",224,176,255);
+            Console.WriteLine();
+            prog.ShowCouleur();
 
             Console.ReadLine();
 

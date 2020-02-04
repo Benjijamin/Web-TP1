@@ -5,3 +5,10 @@ G:\TP1Web\TP1\ProduitNumero9\bin\Debug\ProduitNumero9.exe
 G:\TP1Web\TP1\ProduitNumero9\bin\Debug\ProduitNumero9.pdb
 G:\TP1Web\TP1\ProduitNumero9\obj\Debug\ProduitNumero9.exe
 G:\TP1Web\TP1\ProduitNumero9\obj\Debug\ProduitNumero9.pdb
+U:\TPWEB\TP1\ProduitNumero9\bin\Debug\ProduitNumero9.exe.config
+U:\TPWEB\TP1\ProduitNumero9\bin\Debug\ProduitNumero9.exe
+U:\TPWEB\TP1\ProduitNumero9\bin\Debug\ProduitNumero9.pdb
+U:\TPWEB\TP1\ProduitNumero9\obj\Debug\ProduitNumero9.csprojAssemblyReference.cache
+U:\TPWEB\TP1\ProduitNumero9\obj\Debug\ProduitNumero9.csproj.CoreCompileInputs.cache
+U:\TPWEB\TP1\ProduitNumero9\obj\Debug\ProduitNumero9.exe
+U:\TPWEB\TP1\ProduitNumero9\obj\Debug\ProduitNumero9.pdb

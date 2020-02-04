@@ -22,6 +22,7 @@ C:\Users\1532716\Desktop\Web-TP1\TP1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.Co
 C:\Users\1532716\Desktop\Web-TP1\TP1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 C:\Users\1532716\Desktop\Web-TP1\TP1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
 >>>>>>> 7fa35aace7ff2e6111494545699f77c8704017a1
+<<<<<<< HEAD
 U:\TPWEB\TP1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
 U:\TPWEB\TP1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
 U:\TPWEB\TP1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
@@ -29,3 +30,12 @@ U:\TPWEB\TP1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
 U:\TPWEB\TP1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
 U:\TPWEB\TP1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 U:\TPWEB\TP1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+=======
+U:\Web-TP1\TP1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+U:\Web-TP1\TP1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+U:\Web-TP1\TP1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+U:\Web-TP1\TP1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+U:\Web-TP1\TP1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+U:\Web-TP1\TP1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+U:\Web-TP1\TP1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+>>>>>>> 5ebcd722769f94837853c0d49db58604e6169e80

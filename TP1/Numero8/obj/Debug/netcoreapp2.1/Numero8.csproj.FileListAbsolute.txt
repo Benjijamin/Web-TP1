@@ -1,0 +1,11 @@
+C:\Users\1532716\Desktop\Web-TP1\TP1\Numero8\bin\Debug\netcoreapp2.1\Numero8.deps.json
+C:\Users\1532716\Desktop\Web-TP1\TP1\Numero8\bin\Debug\netcoreapp2.1\Numero8.runtimeconfig.json
+C:\Users\1532716\Desktop\Web-TP1\TP1\Numero8\bin\Debug\netcoreapp2.1\Numero8.runtimeconfig.dev.json
+C:\Users\1532716\Desktop\Web-TP1\TP1\Numero8\bin\Debug\netcoreapp2.1\Numero8.dll
+C:\Users\1532716\Desktop\Web-TP1\TP1\Numero8\bin\Debug\netcoreapp2.1\Numero8.pdb
+C:\Users\1532716\Desktop\Web-TP1\TP1\Numero8\obj\Debug\netcoreapp2.1\Numero8.csprojAssemblyReference.cache
+C:\Users\1532716\Desktop\Web-TP1\TP1\Numero8\obj\Debug\netcoreapp2.1\Numero8.csproj.CoreCompileInputs.cache
+C:\Users\1532716\Desktop\Web-TP1\TP1\Numero8\obj\Debug\netcoreapp2.1\Numero8.AssemblyInfoInputs.cache
+C:\Users\1532716\Desktop\Web-TP1\TP1\Numero8\obj\Debug\netcoreapp2.1\Numero8.AssemblyInfo.cs
+C:\Users\1532716\Desktop\Web-TP1\TP1\Numero8\obj\Debug\netcoreapp2.1\Numero8.dll
+C:\Users\1532716\Desktop\Web-TP1\TP1\Numero8\obj\Debug\netcoreapp2.1\Numero8.pdb

@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1532716\\Desktop\\Web-TP1\\TP1\\Numero8\\Numero8.csproj": {}
+    "C:\\Users\\Max\\Desktop\\Web-TP1\\TP1\\Numero8\\Numero8.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1532716\\Desktop\\Web-TP1\\TP1\\Numero8\\Numero8.csproj": {
+    "C:\\Users\\Max\\Desktop\\Web-TP1\\TP1\\Numero8\\Numero8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1532716\\Desktop\\Web-TP1\\TP1\\Numero8\\Numero8.csproj",
+        "projectUniqueName": "C:\\Users\\Max\\Desktop\\Web-TP1\\TP1\\Numero8\\Numero8.csproj",
         "projectName": "Numero8",
-        "projectPath": "C:\\Users\\1532716\\Desktop\\Web-TP1\\TP1\\Numero8\\Numero8.csproj",
-        "packagesPath": "C:\\Users\\1532716\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1532716\\Desktop\\Web-TP1\\TP1\\Numero8\\obj\\",
+        "projectPath": "C:\\Users\\Max\\Desktop\\Web-TP1\\TP1\\Numero8\\Numero8.csproj",
+        "packagesPath": "C:\\Users\\Max\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Max\\Desktop\\Web-TP1\\TP1\\Numero8\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\1532716\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Max\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -60,7 +55,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

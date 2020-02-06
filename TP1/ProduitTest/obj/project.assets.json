@@ -5829,27 +5829,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\1532716\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Max\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1532716\\Desktop\\Web-TP1\\TP1\\ProduitTest\\ProduitTest.csproj",
+      "projectUniqueName": "C:\\Users\\Max\\Desktop\\Web-TP1\\TP1\\ProduitTest\\ProduitTest.csproj",
       "projectName": "ProduitTest",
-      "projectPath": "C:\\Users\\1532716\\Desktop\\Web-TP1\\TP1\\ProduitTest\\ProduitTest.csproj",
-      "packagesPath": "C:\\Users\\1532716\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1532716\\Desktop\\Web-TP1\\TP1\\ProduitTest\\obj\\",
+      "projectPath": "C:\\Users\\Max\\Desktop\\Web-TP1\\TP1\\ProduitTest\\ProduitTest.csproj",
+      "packagesPath": "C:\\Users\\Max\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Max\\Desktop\\Web-TP1\\TP1\\ProduitTest\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\1532716\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Max\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
@@ -5861,8 +5854,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\1532716\\Desktop\\Web-TP1\\TP1\\ProduitNumero9\\ProduitNumero9.csproj": {
-              "projectPath": "C:\\Users\\1532716\\Desktop\\Web-TP1\\TP1\\ProduitNumero9\\ProduitNumero9.csproj"
+            "C:\\Users\\Max\\Desktop\\Web-TP1\\TP1\\ProduitNumero9\\ProduitNumero9.csproj": {
+              "projectPath": "C:\\Users\\Max\\Desktop\\Web-TP1\\TP1\\ProduitNumero9\\ProduitNumero9.csproj"
             }
           }
         }
@@ -5905,7 +5898,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

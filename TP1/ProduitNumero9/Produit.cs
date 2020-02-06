@@ -36,7 +36,7 @@ namespace ProduitNumero9
                 if (value <= 500 && value >= 0)
                 {
                     this.value = value;
-                    
+
                 }
                 else
                 {
@@ -66,7 +66,7 @@ namespace ProduitNumero9
 
             set
             {
-                if ((value / 100) <= 0.2 && (value/100) >= 0)
+                if (value <= 20 && value >= 0)
                 {
                     qteRupture = value;
                 }
@@ -81,29 +81,29 @@ namespace ProduitNumero9
 
         public override String ToString()
         {
-            
-            return string.Format("Produit : {0} {1} {2} {3}", nomProduit, noProduit, qteRupture, Prix);
+
+            return string.Format("Produit : {0} {1}", nomProduit, noProduit);
 
         }
 
         public double Total(Produit p)
         {
-            return p.value* p.quantite;
+            return p.value * p.quantite;
         }
 
 
 
 
-                //Operateurs
+        //Operateurs
 
-        public static bool operator == (Produit I, Produit J)
+        public static bool operator ==(Produit I, Produit J)
         {
-           
-                return I.noProduit == J.noProduit;
-            
+
+            return I.noProduit == J.noProduit;
+
         }
 
-      
+
         public static bool operator !=(Produit I, Produit J)
         {
             return I.noProduit != J.noProduit;
@@ -117,8 +117,8 @@ namespace ProduitNumero9
 
         public static bool operator <(Produit I, Produit J)
         {
-            return I.quantite -I.qteRupture < J.quantite-J.qteRupture;
-          
+            return I.quantite - I.qteRupture < J.quantite - J.qteRupture;
+
 
         }
 
@@ -129,6 +129,10 @@ namespace ProduitNumero9
         {
 
             Produit p = new Produit(1, "Ben");
+
+
+
+
 
             Console.WriteLine(p);
             Console.ReadLine();

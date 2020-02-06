@@ -5,3 +5,10 @@ U:\Web-TP1\TP1\Number 7\obj\Debug\Number 7.csproj.CoreCompileInputs.cache
 U:\Web-TP1\TP1\Number 7\obj\Debug\Number 7.exe
 U:\Web-TP1\TP1\Number 7\obj\Debug\Number 7.pdb
 U:\Web-TP1\TP1\Number 7\obj\Debug\Number 7.csprojAssemblyReference.cache
+C:\Users\1532716\Desktop\Web-TP1\TP1\Number 7\obj\Debug\Number 7.csprojAssemblyReference.cache
+C:\Users\1532716\Desktop\Web-TP1\TP1\Number 7\obj\Debug\Number 7.csproj.CoreCompileInputs.cache
+C:\Users\1532716\Desktop\Web-TP1\TP1\Number 7\obj\Debug\Number 7.exe
+C:\Users\1532716\Desktop\Web-TP1\TP1\Number 7\obj\Debug\Number 7.pdb
+C:\Users\1532716\Desktop\Web-TP1\TP1\Number 7\bin\Debug\Number 7.exe.config
+C:\Users\1532716\Desktop\Web-TP1\TP1\Number 7\bin\Debug\Number 7.exe
+C:\Users\1532716\Desktop\Web-TP1\TP1\Number 7\bin\Debug\Number 7.pdb

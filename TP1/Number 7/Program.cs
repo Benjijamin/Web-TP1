@@ -13,9 +13,14 @@ namespace Number_7
         {
 
             private string nCouleur;
-            private int p3;
             private int p1;
             private int p2;
+            private int p3;
+
+            public string NCouleur { get => nCouleur; set => nCouleur = value; }
+            public int P1 { get => p1; set => p1 = value > 255 || value < 0 ? 0 : value; }
+            public int P2 { get => p2; set => p2 = value > 255 || value < 0 ? 0 : value; }
+            public int P3 { get => p3; set => p3 = value > 255 || value < 0 ? 0 : value; }
 
 
 
@@ -28,15 +33,11 @@ namespace Number_7
                 p3 = x3;
             }
 
-            public string NCouleur { get => nCouleur; set => nCouleur = value; }
-            public int P1 { get => p1; set => p1 = value; }
-            public int P2 { get => p2; set => p2 = value; }
-            public int P3 { get => p3; set => p3 = value; }
-
+            
 
             public override string ToString()
             {
-                return nCouleur.ToString() + ", " + p1.ToString() + ", " + p2.ToString() + ", " + p3.ToString();
+                return NCouleur.ToString() + ", " + p1.ToString() + ", " + p2.ToString() + ", " + p3.ToString();
             }
 
 
@@ -87,14 +88,12 @@ namespace Number_7
         public Couleur TrouverCouleur(String coul)
         {
             Couleur couleur = new Couleur("", -1, -1, -1);
-            bool trouve = false;
             foreach (Couleur c in ListC)
             {
 
                 if (c.NCouleur == coul)
                 {
                     couleur = c;
-                    trouve = true;
                 }
 
 
@@ -157,6 +156,22 @@ namespace Number_7
             prog.ModifierCouleur(prog.TrouverCouleur("Blanc"),"Mauve",224,176,255);
             Console.WriteLine();
             prog.ShowCouleur();
+            Console.WriteLine();
+            Couleur c1 = new Couleur("Gris", 128, 128, 128);
+            Couleur c2 = new Couleur("Blanc", 255, 255, 255);
+            prog.AjouterCouleur(c1);
+            prog.AjouterCouleur(c2);
+            prog.ShowCouleur();
+            c1 = c2;
+            prog.AjouterCouleur(c1);
+            prog.SupprimerCouleur(c1);
+            Console.WriteLine();
+            prog.ShowCouleur();
+            prog.ModifierCouleur(prog.TrouverCouleur("Gris"), "Rose", 255, 51, 255);
+            Console.WriteLine();
+            prog.ShowCouleur();
+
+
 
             Console.ReadLine();
 

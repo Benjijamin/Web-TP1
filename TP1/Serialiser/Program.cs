@@ -4,7 +4,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.Xml;
+using System.Xml.Linq;
 using System.Xml.Serialization;
 
 namespace Serialiser
@@ -37,7 +40,7 @@ namespace Serialiser
 
             try
             {
-                System.IO.File.WriteAllLines(AppDomain.CurrentDomain.BaseDirectory + @"\test.txt", listeconv);
+                System.IO.File.WriteAllLines("test.txt", listeconv);
             }
             catch (Exception e)
             {
@@ -48,11 +51,56 @@ namespace Serialiser
 
         public void Serializer(Produit[] liste)
         {
-            XmlSerializer xmls = new XmlSerializer(typeof(Produit));
-            using (TextWriter writer = new StreamWriter(AppDomain.CurrentDomain.BaseDirectory + @"\test.xml")) {
-                foreach (Produit p in liste)
+            XmlSerializer xmls = new XmlSerializer(typeof(Produit[]));
+            using (TextWriter writer = new StreamWriter("test.xml"))
+            {
+                xmls.Serialize(writer, liste);
+
+            }
+        }
+
+        public void Lecture(string fichier)
+        {
+            if (Regex.IsMatch(fichier, "xml"))
+            {
+                XmlTextReader r = new XmlTextReader(fichier);
+
+                while (r.Read())
                 {
-                    xmls.Serialize(writer, p);
+                    if (r.NodeType == XmlNodeType.Element && r.Name == "NoProduit")
+                    {
+                        Console.WriteLine("noProduit : " + r.ReadElementString());
+                    }
+                    if (r.NodeType == XmlNodeType.Element && r.Name == "NomProduit")
+                    {
+                        Console.WriteLine("nomProduit : " + r.ReadElementString());
+                    }
+                    if (r.NodeType == XmlNodeType.Element && r.Name == "Prix")
+                    {
+                        Console.WriteLine("prix : " + r.ReadElementString());
+                    }
+                    if (r.NodeType == XmlNodeType.Element && r.Name == "Quantite")
+                    {
+                        Console.WriteLine("quantite : " + r.ReadElementString());
+                    }
+                    if (r.NodeType == XmlNodeType.Element && r.Name == "QteRupture")
+                    {
+                        Console.WriteLine("qteRupture : " + r.ReadElementString());
+                    }
+                    if (r.NodeType == XmlNodeType.Element && r.Name == "Taxable")
+                    {
+                        Console.WriteLine("taxable : " + r.ReadElementString() + "\n");
+                    }
+                }
+
+
+            }
+            else if (Regex.IsMatch(fichier, "txt"))
+            {
+                string[] lignes = File.ReadAllLines(fichier);
+                foreach (string ligne in lignes)
+                {
+                    Console.WriteLine(ligne);
                 }
             }
         }
@@ -66,12 +114,10 @@ namespace Serialiser
 
             p.ListeVersTexte(liste);
 
-            foreach (Produit prod in liste)
-            {
-                Console.WriteLine(prod);
-            }
-
             p.Serializer(liste);
+
+            p.Lecture("test.xml");
+            p.Lecture("test.txt");
         }
     }
 }

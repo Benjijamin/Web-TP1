@@ -1,57 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Produit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <NoProduit>1</NoProduit>
-  <NomProduit>Banane</NomProduit>
-  <Prix>0</Prix>
-  <Quantite>0</Quantite>
-  <QteRupture>0</QteRupture>
-  <Taxable>false</Taxable>
-</Produit><?xml version="1.0" encoding="utf-8"?>
-<Produit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <NoProduit>2</NoProduit>
-  <NomProduit>Max</NomProduit>
-  <Prix>0</Prix>
-  <Quantite>0</Quantite>
-  <QteRupture>0</QteRupture>
-  <Taxable>false</Taxable>
-</Produit><?xml version="1.0" encoding="utf-8"?>
-<Produit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <NoProduit>3</NoProduit>
-  <NomProduit>Ben</NomProduit>
-  <Prix>0</Prix>
-  <Quantite>0</Quantite>
-  <QteRupture>0</QteRupture>
-  <Taxable>false</Taxable>
-</Produit><?xml version="1.0" encoding="utf-8"?>
-<Produit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <NoProduit>4</NoProduit>
-  <NomProduit>Sam</NomProduit>
-  <Prix>0</Prix>
-  <Quantite>0</Quantite>
-  <QteRupture>0</QteRupture>
-  <Taxable>false</Taxable>
-</Produit><?xml version="1.0" encoding="utf-8"?>
-<Produit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <NoProduit>5</NoProduit>
-  <NomProduit>Pain</NomProduit>
-  <Prix>0</Prix>
-  <Quantite>0</Quantite>
-  <QteRupture>0</QteRupture>
-  <Taxable>false</Taxable>
-</Produit><?xml version="1.0" encoding="utf-8"?>
-<Produit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <NoProduit>6</NoProduit>
-  <NomProduit>Roche</NomProduit>
-  <Prix>0</Prix>
-  <Quantite>0</Quantite>
-  <QteRupture>0</QteRupture>
-  <Taxable>false</Taxable>
-</Produit><?xml version="1.0" encoding="utf-8"?>
-<Produit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <NoProduit>70</NoProduit>
-  <NomProduit>Un Tissu</NomProduit>
-  <Prix>0</Prix>
-  <Quantite>0</Quantite>
-  <QteRupture>0</QteRupture>
-  <Taxable>false</Taxable>
-</Produit>
+<ArrayOfProduit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Produit>
+    <NoProduit>1</NoProduit>
+    <NomProduit>Banane</NomProduit>
+    <Prix>0</Prix>
+    <Quantite>0</Quantite>
+    <QteRupture>0</QteRupture>
+    <Taxable>false</Taxable>
+  </Produit>
+  <Produit>
+    <NoProduit>2</NoProduit>
+    <NomProduit>Max</NomProduit>
+    <Prix>0</Prix>
+    <Quantite>0</Quantite>
+    <QteRupture>0</QteRupture>
+    <Taxable>false</Taxable>
+  </Produit>
+  <Produit>
+    <NoProduit>3</NoProduit>
+    <NomProduit>Ben</NomProduit>
+    <Prix>0</Prix>
+    <Quantite>0</Quantite>
+    <QteRupture>0</QteRupture>
+    <Taxable>false</Taxable>
+  </Produit>
+  <Produit>
+    <NoProduit>4</NoProduit>
+    <NomProduit>Sam</NomProduit>
+    <Prix>0</Prix>
+    <Quantite>0</Quantite>
+    <QteRupture>0</QteRupture>
+    <Taxable>false</Taxable>
+  </Produit>
+  <Produit>
+    <NoProduit>5</NoProduit>
+    <NomProduit>Pain</NomProduit>
+    <Prix>0</Prix>
+    <Quantite>0</Quantite>
+    <QteRupture>0</QteRupture>
+    <Taxable>false</Taxable>
+  </Produit>
+  <Produit>
+    <NoProduit>6</NoProduit>
+    <NomProduit>Roche</NomProduit>
+    <Prix>0</Prix>
+    <Quantite>0</Quantite>
+    <QteRupture>0</QteRupture>
+    <Taxable>false</Taxable>
+  </Produit>
+  <Produit>
+    <NoProduit>70</NoProduit>
+    <NomProduit>Un tissu</NomProduit>
+    <Prix>0</Prix>
+    <Quantite>0</Quantite>
+    <QteRupture>0</QteRupture>
+    <Taxable>false</Taxable>
+  </Produit>
+</ArrayOfProduit>

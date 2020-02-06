@@ -5829,25 +5829,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\1433294\\.nuget\\packages\\": {},
+    "C:\\Users\\1532716\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\C#\\Web-TP1\\TP1\\ProduitTest\\ProduitTest.csproj",
+      "projectUniqueName": "C:\\Users\\1532716\\Desktop\\Web-TP1\\TP1\\ProduitTest\\ProduitTest.csproj",
       "projectName": "ProduitTest",
-      "projectPath": "E:\\C#\\Web-TP1\\TP1\\ProduitTest\\ProduitTest.csproj",
-      "packagesPath": "C:\\Users\\1433294\\.nuget\\packages\\",
-      "outputPath": "E:\\C#\\Web-TP1\\TP1\\ProduitTest\\obj\\",
+      "projectPath": "C:\\Users\\1532716\\Desktop\\Web-TP1\\TP1\\ProduitTest\\ProduitTest.csproj",
+      "packagesPath": "C:\\Users\\1532716\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\1532716\\Desktop\\Web-TP1\\TP1\\ProduitTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\1433294\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\1532716\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -5861,8 +5861,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "E:\\C#\\Web-TP1\\TP1\\ProduitNumero9\\ProduitNumero9.csproj": {
-              "projectPath": "E:\\C#\\Web-TP1\\TP1\\ProduitNumero9\\ProduitNumero9.csproj"
+            "C:\\Users\\1532716\\Desktop\\Web-TP1\\TP1\\ProduitNumero9\\ProduitNumero9.csproj": {
+              "projectPath": "C:\\Users\\1532716\\Desktop\\Web-TP1\\TP1\\ProduitNumero9\\ProduitNumero9.csproj"
             }
           }
         }

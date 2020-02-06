@@ -12,3 +12,10 @@ U:\TPWEB\TP1\Numero6\obj\Debug\Numero6.csprojAssemblyReference.cache
 U:\TPWEB\TP1\Numero6\obj\Debug\Numero6.csproj.CoreCompileInputs.cache
 U:\TPWEB\TP1\Numero6\obj\Debug\Numero6.exe
 U:\TPWEB\TP1\Numero6\obj\Debug\Numero6.pdb
+E:\C#\Web-TP1\TP1\Numero6\bin\Debug\Numero6.exe.config
+E:\C#\Web-TP1\TP1\Numero6\bin\Debug\Numero6.exe
+E:\C#\Web-TP1\TP1\Numero6\bin\Debug\Numero6.pdb
+E:\C#\Web-TP1\TP1\Numero6\obj\Debug\Numero6.csprojAssemblyReference.cache
+E:\C#\Web-TP1\TP1\Numero6\obj\Debug\Numero6.csproj.CoreCompileInputs.cache
+E:\C#\Web-TP1\TP1\Numero6\obj\Debug\Numero6.exe
+E:\C#\Web-TP1\TP1\Numero6\obj\Debug\Numero6.pdb

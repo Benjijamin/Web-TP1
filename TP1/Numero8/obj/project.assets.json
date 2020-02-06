@@ -688,25 +688,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\1532716\\.nuget\\packages\\": {},
+    "C:\\Users\\1433294\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1532716\\Desktop\\Web-TP1\\TP1\\Numero8\\Numero8.csproj",
+      "projectUniqueName": "E:\\C#\\Web-TP1\\TP1\\Numero8\\Numero8.csproj",
       "projectName": "Numero8",
-      "projectPath": "C:\\Users\\1532716\\Desktop\\Web-TP1\\TP1\\Numero8\\Numero8.csproj",
-      "packagesPath": "C:\\Users\\1532716\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1532716\\Desktop\\Web-TP1\\TP1\\Numero8\\obj\\",
+      "projectPath": "E:\\C#\\Web-TP1\\TP1\\Numero8\\Numero8.csproj",
+      "packagesPath": "C:\\Users\\1433294\\.nuget\\packages\\",
+      "outputPath": "E:\\C#\\Web-TP1\\TP1\\Numero8\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\1532716\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\1433294\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

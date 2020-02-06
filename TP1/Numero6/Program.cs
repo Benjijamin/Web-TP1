@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Numero6
@@ -23,7 +24,11 @@ namespace Numero6
             {
                 aleatoire = random.Next(min, max);
                 initial.Add( aleatoire);
-                tab.Add(Convert.ToChar(aleatoire));
+                if (Regex.IsMatch(Convert.ToString(Convert.ToChar(aleatoire)), "[a-zA-Z]")) {
+                    tab.Add(Convert.ToChar(aleatoire));
+                }
+                initial.Sort();
+                tab.Sort();
 
             }
             Console.WriteLine("Voici le tableau de chiffres:");
@@ -36,7 +41,7 @@ namespace Numero6
             }
             Console.WriteLine("\nVoici le tableau de caractères:");
             foreach (char i in tab)
-            {
+            {   
                 Console.Write(i + " ");
 
 

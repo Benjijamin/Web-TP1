@@ -12,3 +12,10 @@ C:\Users\1532716\Desktop\Web-TP1\TP1\Number 7\obj\Debug\Number 7.pdb
 C:\Users\1532716\Desktop\Web-TP1\TP1\Number 7\bin\Debug\Number 7.exe.config
 C:\Users\1532716\Desktop\Web-TP1\TP1\Number 7\bin\Debug\Number 7.exe
 C:\Users\1532716\Desktop\Web-TP1\TP1\Number 7\bin\Debug\Number 7.pdb
+E:\C#\Web-TP1\TP1\Number 7\bin\Debug\Number 7.exe.config
+E:\C#\Web-TP1\TP1\Number 7\bin\Debug\Number 7.exe
+E:\C#\Web-TP1\TP1\Number 7\bin\Debug\Number 7.pdb
+E:\C#\Web-TP1\TP1\Number 7\obj\Debug\Number 7.csprojAssemblyReference.cache
+E:\C#\Web-TP1\TP1\Number 7\obj\Debug\Number 7.csproj.CoreCompileInputs.cache
+E:\C#\Web-TP1\TP1\Number 7\obj\Debug\Number 7.exe
+E:\C#\Web-TP1\TP1\Number 7\obj\Debug\Number 7.pdb

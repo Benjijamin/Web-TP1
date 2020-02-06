@@ -28,11 +28,12 @@ namespace Number_7
             {
 
                 nCouleur = nom;
-                p1 = x1;
-                p2 = x2;
-                p3 = x3;
+                p1 = x1 <= 255 && x1 >= 0 ? x1 : 0;
+                p2 = x2 <= 255 && x2 >= 0 ? x2 : 0; ;
+                p3 = x3 <= 255 && x3 >= 0 ? x3 : 0; ;
             }
 
+         
             
 
             public override string ToString()

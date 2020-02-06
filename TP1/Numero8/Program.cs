@@ -11,9 +11,9 @@ namespace Numero8
         private int b;
 
         public string NCouleur { get => nCouleur; set => nCouleur = value; }
-        public int R { get => r; set => r = value; }
-        public int G { get => g; set => g = value; }
-        public int B { get => b; set => b = value; }
+        public int R { get => r; set => r = value > 255 || value < 0 ? 0 : value; }
+        public int G { get => g; set => g = value > 255 || value < 0 ? 0 : value; }
+        public int B { get => b; set => b = value > 255 || value < 0 ? 0 : value; }
 
         public Couleur(string nCouleur, int r, int g, int b)
         {
@@ -50,11 +50,12 @@ namespace Numero8
                 || l.B != r.B;
         }
 
-        public void modifierCouleur(string s, int r, int g, int b) {
+        public void modifierCouleur(string s, int r, int g, int b)
+        {
             NCouleur = s;
             R = r;
             G = g;
-            G = b;
+            B = b;
         }
     }
     class Program
@@ -67,7 +68,8 @@ namespace Numero8
             Listec = new List<Couleur>();
         }
 
-        public void AjouterCouleur(Couleur couleur) {
+        public void AjouterCouleur(Couleur couleur)
+        {
             Listec.Add(couleur);
         }
 
@@ -98,15 +100,45 @@ namespace Numero8
             p.AjouterCouleur(c3);
             p.AjouterCouleur(c4);
             p.AjouterCouleur(c5);
+            p.AjouterCouleur(c6);
+            p.AjouterCouleur(c7);
 
-            foreach (Couleur c in p.Listec) {
+
+            //afficher toutes couleurs
+            foreach (Couleur c in p.Listec)
+            {
                 c.AfficheC();
             }
+            Console.WriteLine("");
 
 
+            //Trouver couleur et afficher rgb
+            Couleur c8 = p.TrouverCouleur("rouge");
+
+            Console.WriteLine(c8.NCouleur + " vaut:");
+            Console.WriteLine("r: {0} g: {1} b: {2}\n", c8.R, c8.G, c8.B);
+
+            //Effacer une couleur
+            p.Listec.Remove(c8);
+
+            foreach (Couleur c in p.Listec)
+            {
+                c.AfficheC();
+            }
+            Console.WriteLine("");
 
 
+            //Modifier une couleur
 
+            c8 = p.TrouverCouleur("blanc");
+
+            c8.modifierCouleur("gris", 128, 128, 128);
+
+            foreach (Couleur c in p.Listec)
+            {
+                c.AfficheC();
+            }
+            Console.WriteLine("");
         }
     }
 }

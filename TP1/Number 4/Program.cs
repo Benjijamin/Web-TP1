@@ -35,7 +35,7 @@ namespace ConsoleApp1
             int count;
 
 
-            count = reg.Length;
+            count = Regex.Matches(reg, "[a-zA-Z0-9]").Count;
 
 
             return count;

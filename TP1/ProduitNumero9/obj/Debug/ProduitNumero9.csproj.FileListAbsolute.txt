@@ -18,3 +18,10 @@ C:\Users\Max\Desktop\Web-TP1\TP1\ProduitNumero9\bin\Debug\ProduitNumero9.pdb
 C:\Users\Max\Desktop\Web-TP1\TP1\ProduitNumero9\obj\Debug\ProduitNumero9.csprojAssemblyReference.cache
 C:\Users\Max\Desktop\Web-TP1\TP1\ProduitNumero9\obj\Debug\ProduitNumero9.exe
 C:\Users\Max\Desktop\Web-TP1\TP1\ProduitNumero9\obj\Debug\ProduitNumero9.pdb
+C:\Users\1532716\Desktop\Web-TP1\TP1\ProduitNumero9\bin\Debug\ProduitNumero9.exe.config
+C:\Users\1532716\Desktop\Web-TP1\TP1\ProduitNumero9\bin\Debug\ProduitNumero9.exe
+C:\Users\1532716\Desktop\Web-TP1\TP1\ProduitNumero9\bin\Debug\ProduitNumero9.pdb
+C:\Users\1532716\Desktop\Web-TP1\TP1\ProduitNumero9\obj\Debug\ProduitNumero9.csprojAssemblyReference.cache
+C:\Users\1532716\Desktop\Web-TP1\TP1\ProduitNumero9\obj\Debug\ProduitNumero9.csproj.CoreCompileInputs.cache
+C:\Users\1532716\Desktop\Web-TP1\TP1\ProduitNumero9\obj\Debug\ProduitNumero9.exe
+C:\Users\1532716\Desktop\Web-TP1\TP1\ProduitNumero9\obj\Debug\ProduitNumero9.pdb

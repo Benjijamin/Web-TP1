@@ -5,3 +5,10 @@ U:\TPWEB\TP1\MiniCalcul\obj\Debug\Number 2.csprojAssemblyReference.cache
 U:\TPWEB\TP1\MiniCalcul\obj\Debug\Number 2.csproj.CoreCompileInputs.cache
 U:\TPWEB\TP1\MiniCalcul\obj\Debug\MiniCalcul.exe
 U:\TPWEB\TP1\MiniCalcul\obj\Debug\MiniCalcul.pdb
+C:\Users\1532716\Desktop\Web-TP1\TP1\MiniCalcul\bin\Debug\MiniCalcul.exe.config
+C:\Users\1532716\Desktop\Web-TP1\TP1\MiniCalcul\bin\Debug\MiniCalcul.exe
+C:\Users\1532716\Desktop\Web-TP1\TP1\MiniCalcul\bin\Debug\MiniCalcul.pdb
+C:\Users\1532716\Desktop\Web-TP1\TP1\MiniCalcul\obj\Debug\Number 2.csprojAssemblyReference.cache
+C:\Users\1532716\Desktop\Web-TP1\TP1\MiniCalcul\obj\Debug\Number 2.csproj.CoreCompileInputs.cache
+C:\Users\1532716\Desktop\Web-TP1\TP1\MiniCalcul\obj\Debug\MiniCalcul.exe
+C:\Users\1532716\Desktop\Web-TP1\TP1\MiniCalcul\obj\Debug\MiniCalcul.pdb

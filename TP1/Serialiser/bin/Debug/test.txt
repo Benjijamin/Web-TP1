@@ -1,5 +1,7 @@
-VIANDE
-FRUIT
-FRUIT
-PAIN
-OEUF
+noProduit: 1  nomProduit: Banane
+noProduit: 2  nomProduit: Max
+noProduit: 3  nomProduit: Ben
+noProduit: 4  nomProduit: Sam
+noProduit: 5  nomProduit: Pain
+noProduit: 6  nomProduit: Roche
+noProduit: 70  nomProduit: Un Tissu

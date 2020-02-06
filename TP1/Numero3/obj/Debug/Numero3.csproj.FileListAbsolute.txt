@@ -26,3 +26,10 @@ U:\TPWEB\TP1\Numero3\obj\Debug\Numero3.csprojAssemblyReference.cache
 U:\TPWEB\TP1\Numero3\obj\Debug\Numero3.csproj.CoreCompileInputs.cache
 U:\TPWEB\TP1\Numero3\obj\Debug\Numero3.exe
 U:\TPWEB\TP1\Numero3\obj\Debug\Numero3.pdb
+C:\Users\1532716\Desktop\Web-TP1\TP1\Numero3\bin\Debug\Numero3.exe.config
+C:\Users\1532716\Desktop\Web-TP1\TP1\Numero3\bin\Debug\Numero3.exe
+C:\Users\1532716\Desktop\Web-TP1\TP1\Numero3\bin\Debug\Numero3.pdb
+C:\Users\1532716\Desktop\Web-TP1\TP1\Numero3\obj\Debug\Numero3.csprojAssemblyReference.cache
+C:\Users\1532716\Desktop\Web-TP1\TP1\Numero3\obj\Debug\Numero3.csproj.CoreCompileInputs.cache
+C:\Users\1532716\Desktop\Web-TP1\TP1\Numero3\obj\Debug\Numero3.exe
+C:\Users\1532716\Desktop\Web-TP1\TP1\Numero3\obj\Debug\Numero3.pdb

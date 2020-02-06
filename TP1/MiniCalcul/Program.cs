@@ -25,7 +25,7 @@ namespace MiniCalcul
                     nb3 = nb1 * nb2;
                     break;
                 default:
-                    Console.WriteLine("Operateur iconnu");
+                    Console.WriteLine("Operateur inconnu");
                     nb3 = 0;
                     break;
             }
@@ -61,7 +61,7 @@ namespace MiniCalcul
             Program miniCalcul = new Program();
             double res = miniCalcul.Calcul(op,nb1,nb2);
 
-            Console.WriteLine("Resulat :" + res);
+            Console.WriteLine("Resultat :" + res);
         }
     }
 }

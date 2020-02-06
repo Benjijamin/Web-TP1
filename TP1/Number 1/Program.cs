@@ -33,32 +33,36 @@ namespace Number_1
         static void Main(string[] args)
         {
             string val;
-
+            string loop = "";
 
             double a;
-            while (true)
+
+            do
             {
-                try
+                while (true)
                 {
+                    try
+                    {
 
 
-                    Console.Write("Entrez Temperature : ");
-                    val = Console.ReadLine();
-                    a = Convert.ToDouble(val);
-                    break;
+                        Console.Write("Entrez Temperature : ");
+                        val = Console.ReadLine();
+                        a = Convert.ToDouble(val);
+                        break;
+                    }
+                    catch (FormatException fe)
+                    {
+                        Console.WriteLine("Ce n'est pas une Temp valide");
+                    }
+
                 }
-                catch (FormatException fe)
-                {
-                    Console.WriteLine("Ce n'est pas une Temp valide");
-                }
+                Program num1 = new Program();
+                Console.WriteLine("Temp en Kelvin : " + num1.TempKel(a));
+                Console.WriteLine("Temp en Fahrenheit : " + num1.TempFah(a));
 
-            }
-            Program num1 = new Program();
-            Console.WriteLine("Temp en Kelvin : " + num1.TempKel(a));
-            Console.WriteLine("Temp en Fahrenheit : " + num1.TempFah(a));
-
-            Console.ReadLine();
-
+                Console.WriteLine("o pour rejouer");
+                loop = Console.ReadLine();
+            } while (loop == "o");
 
 
         }

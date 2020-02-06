@@ -18,10 +18,22 @@ namespace ProduitNumero9
         private int qteRupture;
         private bool taxable;
 
+        public Produit() {
+        }
         public Produit(int noProduit, string nomProduit)
         {
             NoProduit = noProduit;
             NomProduit = nomProduit;
+        }
+
+        public Produit(int noProduit, string nomProduit, string description, double value, int quantite, int qteRupture, bool taxable) {
+            NoProduit = noProduit;
+            NomProduit = nomProduit;
+            Description = description;
+            Prix = value;
+            Quantite = quantite;
+            QteRupture = qteRupture;
+            Taxable = taxable;
         }
 
         public int NoProduit { get => noProduit; set => noProduit = value; }

@@ -5,3 +5,14 @@ U:\TPWEB\TP1\Serialiser\obj\Debug\Number 10.csprojAssemblyReference.cache
 U:\TPWEB\TP1\Serialiser\obj\Debug\Number 10.csproj.CoreCompileInputs.cache
 U:\TPWEB\TP1\Serialiser\obj\Debug\Serialiser.exe
 U:\TPWEB\TP1\Serialiser\obj\Debug\Serialiser.pdb
+C:\Users\1532716\Desktop\Web-TP1\TP1\Serialiser\obj\Debug\Number 10.csprojAssemblyReference.cache
+C:\Users\1532716\Desktop\Web-TP1\TP1\Serialiser\obj\Debug\Number 10.csproj.CoreCompileInputs.cache
+C:\Users\1532716\Desktop\Web-TP1\TP1\Serialiser\obj\Debug\Serialiser.exe
+C:\Users\1532716\Desktop\Web-TP1\TP1\Serialiser\obj\Debug\Serialiser.pdb
+C:\Users\1532716\Desktop\Web-TP1\TP1\Serialiser\bin\Debug\Serialiser.exe.config
+C:\Users\1532716\Desktop\Web-TP1\TP1\Serialiser\bin\Debug\Serialiser.exe
+C:\Users\1532716\Desktop\Web-TP1\TP1\Serialiser\bin\Debug\Serialiser.pdb
+C:\Users\1532716\Desktop\Web-TP1\TP1\Serialiser\bin\Debug\ProduitNumero9.exe
+C:\Users\1532716\Desktop\Web-TP1\TP1\Serialiser\bin\Debug\ProduitNumero9.pdb
+C:\Users\1532716\Desktop\Web-TP1\TP1\Serialiser\bin\Debug\ProduitNumero9.exe.config
+C:\Users\1532716\Desktop\Web-TP1\TP1\Serialiser\obj\Debug\Number 10.csproj.CopyComplete

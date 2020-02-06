@@ -4,3 +4,9 @@ U:\TPWEB\TP1\ALEA\bin\Debug\ALEA.pdb
 U:\TPWEB\TP1\ALEA\obj\Debug\Number 5.csproj.CoreCompileInputs.cache
 U:\TPWEB\TP1\ALEA\obj\Debug\ALEA.exe
 U:\TPWEB\TP1\ALEA\obj\Debug\ALEA.pdb
+C:\Users\1532716\Desktop\Web-TP1\TP1\ALEA\bin\Debug\ALEA.exe.config
+C:\Users\1532716\Desktop\Web-TP1\TP1\ALEA\bin\Debug\ALEA.exe
+C:\Users\1532716\Desktop\Web-TP1\TP1\ALEA\bin\Debug\ALEA.pdb
+C:\Users\1532716\Desktop\Web-TP1\TP1\ALEA\obj\Debug\Number 5.csproj.CoreCompileInputs.cache
+C:\Users\1532716\Desktop\Web-TP1\TP1\ALEA\obj\Debug\ALEA.exe
+C:\Users\1532716\Desktop\Web-TP1\TP1\ALEA\obj\Debug\ALEA.pdb

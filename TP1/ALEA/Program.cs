@@ -8,39 +8,46 @@ namespace ALEA
 {
     class Program
     {
-        static int[] GenTableau()
+        private int[] tab;
+
+        public int[] Tab { get => tab; set => tab = value; }
+
+        public int[] GenTableau()
         {
-            int[] tab = new int[20];
+            int[] tabi = new int[20];
             Random rnd = new Random();
 
-            for (int i = 0; i < tab.Length; i++)
+            for (int i = 0; i < tabi.Length; i++)
             {
-                tab[i] = rnd.Next(1, 101);
+                tabi[i] = rnd.Next(1, 101);
             }
 
-            return tab;
+            Tab = tabi;
+
+            return tabi;
         }
 
-        static int[] TriCroissant(int[] tab)
+        public int[] TriCroissant()
         {
-            Array.Sort(tab);
-            return tab;
+            Array.Sort(Tab);
+        
+            return Tab;
         }
 
-        static void ValImpaires(int[] tab)
+        public void ValImpaires()
         {
             Console.WriteLine("Nombres impairs :");
-            foreach (int i in tab)
+            foreach (int i in this.Tab)
             {
                 if (i % 2 != 0) Console.WriteLine(i);
             }
             Console.WriteLine("");
         }
 
-        static void MaxVal(int[] tab)
+        public void MaxVal()
         {
             int max = 1;
-            foreach (int i in tab)
+            foreach (int i in Tab)
             {
                 if (i > max) max = i;
             }
@@ -48,27 +55,33 @@ namespace ALEA
             Console.WriteLine("");
         }
 
+        public override string ToString() {
+            string s = "";
+
+            foreach (int i in Tab)
+            {
+                s = s + i + "\n";
+            }
+            return s;
+        }
+
+
         static void Main(string[] args)
         {
-            int[] tab = GenTableau();
-            Console.WriteLine("Tableau :");
-            foreach (int i in tab)
-            {
-                Console.WriteLine(i);
-            }
-            Console.WriteLine("");
+            Program p = new Program();
 
-            Console.WriteLine("Tableau trie");
-            tab = TriCroissant(tab);
-            foreach (int i in tab)
-            {
-                Console.WriteLine(i);
-            }
-            Console.WriteLine("");
+            p.GenTableau();
 
-            ValImpaires(tab);
+            Console.WriteLine("Tableau :\n"+p);
+            
 
-            MaxVal(tab);
+           
+            p.TriCroissant();
+            Console.WriteLine("Tableau trie\n" + p);
+
+            p.ValImpaires();
+
+            p.MaxVal();
         }
     }
 }
